@@ -288,7 +288,6 @@ void setup() {
 
 void loop() {
   TouchPoint_t pos= M5.Touch.getPressPoint();
-  //mpu.getGyroData(&gyroX, &gyroY, &gyroZ);
   if(edit<1){
     if(pos.x >=0 && pos.y >=0 && pos.y <=240)
     {      
